@@ -13,13 +13,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #a9d5d950;
 }
 
 input {
-  border: 2px solid #FD51AF;
+  border: 2px solid #5d709c;
   border-radius: 4px;
   line-height: 24px;
   font-size: 18px;
+  background-color: #fff;
 }
 
 input:focus {
@@ -28,7 +30,7 @@ input:focus {
 
 .required {
   font-size: 1.2em;
-  color: #06B000;
+  color: #e50f0f;
 }
 
 .form {
@@ -66,19 +68,19 @@ input:focus {
 }
 
 .send-btn:hover {
-  background: #08A800;
+  background: #068400;
 }
 
 .clear-btn {
-  background: #d65fa2;
+  background: #5875b8;
   color: #fff;
   padding: 10px 0;
-  border-color: #B00060;
+  border-color: #3727a0;
   cursor: pointer;
 }
 
 .clear-btn:hover {
-  background: #cd5097;
+  background: #3727a0;
 }
 
 label[for="phone"] {
@@ -89,4 +91,11 @@ label[for="phone"] {
 
 label[for="phone"] i {
   cursor: pointer;
+}
+
+.fireworks {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
