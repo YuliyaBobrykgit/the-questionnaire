@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  background-color: #a9d5d9;
 }
 
 h1 {
@@ -14,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #a9d5d950;
 }
 
 input {
